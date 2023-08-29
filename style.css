@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+/* common styles here  */
+
+.primaryTextHeading{
+    color: #272727;
+    font-size: 54px;
+    font-weight: 800;
+    padding-bottom: 10px;
+ }
+
+.primaryTextPera{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+ }
+
+ .primaryButton{
+    border-radius: 8px;
+    background: #df4969;
+    padding: 15px 43px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+ }
+
+/*  header part style  */
+
+.header{
+     
+background-color: #FCEEF1;
+     
+padding: 24px 50px;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgHeader{
+    text-align: right;
+}
+.imgheader{
+    width: 65%;
+    position: relative;
+    top: 27px;
+}
+
+/* Main Part Start */
+
+main{
+    margin-top: 20px;
+    padding: 20px 40px 40px 40px;
+    padding-bottom: 40px;
+}
+
+
+/*  Our Featured Flowers */
+.FlowersContent{
+    text-align: center;
+}
+.FlowersContent h2{
+    font-size: 28px;
+}
+
+.threeImgCard{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgCard{
+   background-color: red;
+   margin-top: 34px;
+   border-top-right-radius: 204px;
+   border-top-left-radius: 204px;
+   width: 347px;
+   height: 320px;
+   text-align: center;
+   padding-top: 57px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.bgOne{
+   background-color: #F1DDE7;
+}
+.bgTwo{
+   background-color: #D9EFF0;
+}
+
+.bgThree{
+    background-color: #E3EBDB;
+}
+.imgCard img{
+    width: 310px;
+    height: 320px;
+ }
+
+ .imgCard p{
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 30px;
+ }
+
+ /*  Reviwe Link  */
+
+
+ .reviweLink{
+    background-color: #F4F4F4;
+    margin-top: 141px;
+    padding: 30px;
+ }
+
+ .imgIcon{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .imgItems{
+    text-align: center;
+ }
+ .imgItems p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    margin-top: 8px;
+ }
+
+
+
+ /*  Hot Deal Area  */
+ .hotDeal{
+    background-color: #FDF6F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+ }
+
+ .hotDealContent h2 span{
+    color: #ef5778;
+ }
+ .hotDealContent {
+    text-align: center;
+ }
+ .hotDealContent h2{
+    font-size: 33px;
+ }
+
+ .hotDealImg img{
+    width: 90%;
+    margin-top: 75px;
+ }
+
+ /* instagram Area  */
+
+
+ .instagramArea{
+    margin-top: 70px;
+ }
+ .shotTitle {
+    text-align: center;
+    padding-bottom: 20px;
+ }
+
+ .instagramPhotoGallary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 28px 45px;
+ }
+
+ 
+ .photo img{
+    width: 84%;
+ }
+
+
+ /* latest Deals styles  */
+ .latestDeals{
+    text-align: center;
+    padding: 30px 50px;
+ }
+ .latestDealsContainer{
+    background-image: url("img/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 123px 0px;
+ }
+
+ .latestDealsContainer h1{
+    font-size: 40px;
+ }
+
+ .latestDealsContainer input{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 241px;
+    height: 48px;
+    padding-left: 28px;
+    border-radius: 5px;
+ }
+
+ .latestDealsContainer button{
+    padding: 15px 31px;
+    font-size: 15px;
+ }
+
+
+ /* footer styles  */
+ footer{
+    text-align: center;
+    background-color: #111010;
+    padding: 100px 40px;
+    color: white;
+    margin-top: 40px;
+ }
+ footer h1 span{
+    color: #C74A65;
+ }
+
+ footer small{
+    color: rgba(255, 255, 255, 0.40);
+ }
